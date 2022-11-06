@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 body{
     background-image: url(https://i.pinimg.com/originals/b9/1c/78/b91c781e83fb283f0a15c5d20163a0db.jpg);
     background-repeat: no-repeat;
@@ -13,10 +15,10 @@ body{
     text-align: center;
 }
 
-
 .body-site{
  height: auto;
 }
+
 .container {
     width: 80%;
     margin: auto;
@@ -24,57 +26,101 @@ body{
     justify-content: center;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 700px;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.caixa-dupla {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.pergunta {
+    display: flex ;
+    flex-direction: column;
+    margin-right: 5px;
+    border-radius: 20px;
+    background-color: rgb(250, 223, 173);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pergunta span {
+    font-family: 'Archivo Black', sans-serif;
+    color: black;
+    width: 300px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.pergunta input {
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pergunta ::placeholder{
+    color: black;
+    font-weight: 700;
+}
+
 .Box-Cruzadinha {
-    height: 350px;
-    width: 450px;
+    height: fit-content;
     background-color: #a0a2a4;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
-
+    padding: 10px;
 }
 
-.Box-Cruzadinha .quadrante{
-    width: 18px;
-    height: 18px;
+.quadrante{
+    width: 30px;
+    height: 30px;
     margin: 1px;
     margin-block-start: 0;
     margin-block-end: 0;
     border: 0;
     background-color: white;
     text-align: center;
-    padding-top: 3px;
     border-radius: 5px;
     font-family: 'Cairo', sans-serif;
     font-size: small;
     font-weight: bold;
 }
 
-.Box-Cruzadinha .quadrante-off{
-    width: 22px;
-    height: 22px;
+.quadrante-off{
+    width: 30px;
+    height: 30px;
     margin: 1px;
     margin-block-start: 0;
     margin-block-end: 0;
     border: 0;
+    border-radius: 20px;
     background-color: #a0a2a4;
-
-
 }
-.Box-Cruzadinha .quadrante-black{
-    width: 22px;
-    height: 22px;
+
+.quadrante-black{
+    width: 30px;
+    height: 30px;
     margin: 1px;
     margin-block-start: 0;
     margin-block-end: 0;
     border: 0;
     background-color: #000000;
     border-radius: 5px;
-
 }
-.Box-Cruzadinha .linha{
+
+.linha{
     display: flex;
     margin-top: 1px;
 }
